@@ -1,0 +1,39 @@
+#ContainerCards{
+    margin-top: 10%;
+    display: flex;
+    height: 700px;
+    max-width: 1000px;
+}
+
+.card{
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border-radius: 50px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.location-text{
+    position: absolute;
+    left: 16px;
+    bottom: 20px;
+    color: blanchedalmond;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 10px #000;
+    text-wrap: nowrap;
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.expand{
+    flex: 7;
+}
+
+.expand .location-text{
+    opacity: 1;
+}
