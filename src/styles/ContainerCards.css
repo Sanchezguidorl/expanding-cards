@@ -15,6 +15,7 @@
     border-radius: 50px;
     position: relative;
     transition: flex 0.7s ease-in;
+    cursor: pointer;
 }
 
 .location-text{
